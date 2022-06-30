@@ -1,0 +1,13 @@
+.cart-details {
+    margin: 20px;
+}
+
+.cart-header {
+    text-align: center;
+}
+
+.order-total {
+   font-size: 20px;
+   font-weight: 500;
+   color: orangered;
+}

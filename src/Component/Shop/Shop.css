@@ -1,0 +1,25 @@
+.shop-component {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.products-container {
+    border-right: 1px solid #cccc;
+    margin-left: 60px;
+}
+
+.input-container {
+    background-color: black;
+    line-height: 40px;
+    text-align: center;
+}
+
+.input-container input {
+    width: 50%;
+}
+
+.icon {
+    color: white;
+    height:17px;
+    width: 30px;
+}

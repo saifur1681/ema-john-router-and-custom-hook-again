@@ -1,0 +1,22 @@
+.product-container {
+    display: flex;
+    border-bottom: 1px solid #cccc;
+    margin: 5px;
+}
+
+.product-container img {
+    margin-right: 15px;
+}
+.product-style {
+    color: rgb(245, 151, 84);
+    font-weight: 400;
+}
+.btn-cart{
+    width: 180px;
+    height: 27px;
+    border-radius: 3px;
+    border: 1px solid gray;
+    background-color:rgb(241, 191, 63);
+    cursor:pointer;
+    margin-bottom: 5px;
+}
