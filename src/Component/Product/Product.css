@@ -7,10 +7,12 @@
 .product-container img {
     margin-right: 15px;
 }
+
 .product-style {
     color: rgb(245, 151, 84);
     font-weight: 400;
 }
+
 .btn-cart{
     width: 180px;
     height: 27px;
