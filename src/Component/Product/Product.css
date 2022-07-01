@@ -13,12 +13,16 @@
     font-weight: 400;
 }
 
-.btn-cart{
+.btn-cart {
     width: 180px;
     height: 27px;
     border-radius: 3px;
     border: 1px solid gray;
-    background-color:rgb(241, 191, 63);
-    cursor:pointer;
+    background-color: rgb(241, 191, 63);
+    cursor: pointer;
     margin-bottom: 5px;
+}
+
+.icon-style {
+    color:rgb(247, 118, 71) ;
 }
