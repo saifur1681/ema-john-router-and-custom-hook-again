@@ -12,7 +12,6 @@ const Shop = () => {
     const [cart, setCart] = useState([]);
     const [searchProducts, setSearchProducts] = useState([]);
 
-
     useEffect(() => {
         fetch('./products.JSON')
             .then(res => res.json())
@@ -75,7 +74,7 @@ const Shop = () => {
         const searchText = event.target.value;
         const searchProduct = products.filter(product => product.name.toLowerCase().includes(searchText.toLowerCase()));
         setSearchProducts(searchProduct);
-    }
+    };
 
     return (
         <>
@@ -97,7 +96,6 @@ const Shop = () => {
                             key={product.key}
                             product={product}
                             handleClicked={handleClicked}
-
                         />)
                     }
                 </div>

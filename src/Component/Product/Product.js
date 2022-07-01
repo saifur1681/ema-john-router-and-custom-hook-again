@@ -24,7 +24,6 @@ const Product = (props) => {
                 <button
                     onClick={() => props.handleClicked(props.product)}
                     className="btn-cart"  >{cartIcon}add to cart</button>
-
             </div>
         </div>
     );

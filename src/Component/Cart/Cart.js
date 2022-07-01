@@ -12,7 +12,7 @@ const Cart = (props) => {
         }
         totalQuantity = totalQuantity + product.quantity;
         total = total + product.price * product.quantity;
-    }
+    };
     // tax...
     let tax = total / 10;
     // shipping.....
